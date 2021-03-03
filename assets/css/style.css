@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.contactInfo{
+    margin: 10px;
+    padding: 10px;
+    color: white;
+    font-size: 32px;
+    border: solid 2.5px gray;
+    background-color: black;
+}
+
+.contactInfo a {
+    margin: 5px;
+    padding: 5px;
+    height: 5px;
+    width: auto;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    background-color: black;
+}
+
+.contactInfo a:hover{
+    margin: 5px;
+    padding: 5px;
+    height: 5px;
+    width: auto;
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 17px;
+    background-color: black;
+}
+
+header {
+    display: flex;
+}
