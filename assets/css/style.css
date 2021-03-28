@@ -118,11 +118,13 @@ header {
 }
 
 .section-work, .section-ro {
+
     min-height: 180px;
     margin: 25px;
-    padding: 5px;
+    padding: 20px;
     width: 100%;
     display: flex;
+    flex-wrap: nowrap;
     background-color: rgb(211, 255, 255);
 }
 
@@ -160,6 +162,7 @@ main {
 
   .section-ro {
       min-height: 100px;
+      width: 100%;
   }
 
   .section-ro a {
